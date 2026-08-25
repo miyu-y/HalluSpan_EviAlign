@@ -1,0 +1,15 @@
+# SRL preprocessing environment
+#
+# Create this environment with Python 3.9.  AllenNLP 2.10.1 does not support
+# the PyTorch/Transformers versions used by ModernBERT, so do not combine this
+# file with requirements_modernbert.txt.
+#
+# Install a CUDA-compatible torch==1.12.1 wheel for the target machine before
+# (or together with) this file when GPU SRL inference is required.
+torch==1.12.1
+allennlp==2.10.1
+allennlp-models==2.10.1
+spacy==3.3.3
+numpy==1.23.5
+tqdm==4.66.4
+

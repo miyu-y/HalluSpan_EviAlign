@@ -1,0 +1,2 @@
+# Backward-compatible default: ModernBERT training and inference.
+-r requirements_modernbert.txt

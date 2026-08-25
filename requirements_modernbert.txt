@@ -1,0 +1,15 @@
+# ModernBERT training and token-level EviAlign inference environment
+#
+# These are the versions in the experiment environment (.modernbert).
+# Install the torch==2.9.1 wheel matching the target CUDA runtime first when
+# the default PyPI wheel is not suitable for the machine.
+torch==2.9.1
+transformers==4.57.3
+tokenizers==0.22.1
+accelerate==1.12.0
+huggingface-hub==0.36.0
+safetensors==0.7.0
+numpy==2.4.0
+tqdm==4.67.1
+wandb==0.23.1
+

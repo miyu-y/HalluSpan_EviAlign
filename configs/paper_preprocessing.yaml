@@ -1,0 +1,6 @@
+include_define: cosine
+sim_a: 0.4
+base_model: answerdotai/ModernBERT-large
+max_doc_span_len: 10
+top_k: 30
+max_length: 8192
